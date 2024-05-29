@@ -9,4 +9,11 @@ module.exports = defineConfig({
     base_url: "https://app.smartfarm.id",
     base_url_api: "https://api.smartfarm.id",
   },
+  reporter: "mochawesome",
+  reporterOptions: {
+    reportDir: "cypress/reports",
+    overwrite: false,
+    html: false,
+    json: true,
+  },
 });
