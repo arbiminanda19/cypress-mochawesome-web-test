@@ -1,5 +1,5 @@
 {
-  "name": "smartfarm-web-test",
+  "name": "cypress-mochawesome-web-test",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
